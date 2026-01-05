@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "945349619754",
+    "firebase_url": "https://student-managment-8dfbd-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "student-managment-8dfbd",
+    "storage_bucket": "student-managment-8dfbd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:945349619754:android:b3151cc7b90a615c109353",
+        "android_client_info": {
+          "package_name": "com.example.attandence_managment"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWZwTT7H_iX_XCGBmPrPDKWyJUBH4cAsY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

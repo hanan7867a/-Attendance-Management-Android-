@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.attandence_managment">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Attandence_managment">
+
+        <!-- Launcher Activity -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"> <!-- Add this line -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <!-- Dashboard -->
+        <activity android:name=".Dashborad" />
+
+
+
+
+        <activity android:name=".grades.SubmissionPageActivity" />
+        <activity android:name=".Student_module.AttendanceHistoryActivity" />
+        <activity android:name=".AllClasses" />
+
+        <activity android:name=".grades.GradeBookOptionsActivity" />
+        <activity android:name=".ReportDashboardActivity" />
+
+
+        <activity android:name=".announcments.AnnouncementDetailActivity" />
+        <activity android:name=".Student_module.attandenceSheet" />
+        <activity android:name=".teacher_side.CreateAssignment"/>
+
+
+
+        <!-- Teacher Screens -->
+        <activity android:name=".teacher_side.TeacherDashboardActivity"
+            android:exported="true"
+            />
+        <activity android:name=".teacher_side.AttendanceActivity"
+            android:exported="true"
+            />
+        <activity android:name=".announcments.CreateAnnouncementActivity"
+
+            />
+
+        <!-- Reusable Layouts/Widgets (if you have activities using these layouts) -->
+
+        <activity android:name=".ClassCardPresentActivity" />
+        <activity android:name=".DashGradeRowActivity" />
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".grades.MarksResultActivity"
+            android:exported="true"
+            />
+        <activity android:name=".teacher_side.ActivityTeacherRegister"
+            android:exported="true"
+            />
+        <activity android:name=".teacher_side.ActivityAddStudentMarks"/>
+
+
+        <!-- Item XMLs are usually for RecyclerView items, so no activity needed -->
+        <!-- item_assignment_mark.xml -->
+        <!-- item_assignment_submission.xml -->
+        <!-- item_attendance.xml -->
+        <!-- item_grade_card.xml -->
+        <!-- item_today_class.xml -->
+
+    </application>
+
+</manifest>

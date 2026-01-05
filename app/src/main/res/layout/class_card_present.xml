@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="15dp"
+    android:background="@drawable/card_bg"
+    android:layout_marginTop="12dp">
+
+    <TextView
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:gravity="center"
+        android:text="@string/m_initial"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/primaryBlue"
+        android:background="@drawable/circle_light_blue"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginStart="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mathematics_i_long"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/you_are_marked_present"
+            android:textColor="@color/presentText"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/time_9_30_am"
+        android:textSize="13sp"
+        android:textColor="@color/grayText"/>
+</LinearLayout>

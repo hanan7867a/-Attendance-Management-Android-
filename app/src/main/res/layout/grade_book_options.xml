@@ -1,0 +1,237 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- PROFILE SECTION -->
+        <include
+            android:id="@+id/topHeader"
+            layout="@layout/header_activity" />
+
+        <!-- GREETING -->
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What you want to check"
+            android:textColor="#95B8E8"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- ACTION CARDS -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- ASSIGNMENT CARD -->
+            <LinearLayout
+                android:id="@+id/assignment_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:padding="16dp"
+                android:background="@drawable/card_bg"
+                android:layout_marginBottom="16dp">
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="46dp"
+                    android:layout_marginEnd="16dp"
+                    android:src="@drawable/assignment_icon"
+                    android:contentDescription="Assignments Icon"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Assignments"
+                        android:textSize="20sp"
+                        android:textColor="#4D4949"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your Assignment marks"
+                        android:textSize="15sp"
+                        android:textColor="#000000"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- QUIZ CARD -->
+            <LinearLayout
+                android:id="@+id/quiz_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:padding="16dp"
+                android:background="@drawable/card_bg"
+                android:layout_marginBottom="16dp">
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="46dp"
+                    android:layout_marginEnd="16dp"
+                    android:src="@drawable/assignment_icon"
+                    android:contentDescription="Quiz Icon"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Quiz"
+                        android:textSize="20sp"
+                        android:textColor="#4D4949"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your Quiz scores"
+                        android:textSize="15sp"
+                        android:textColor="#000000"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- SUBMISSION CARD -->
+            <LinearLayout
+                android:id="@+id/submission_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:padding="16dp"
+                android:background="@drawable/card_bg"
+                android:layout_marginBottom="16dp">
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="46dp"
+                    android:layout_marginEnd="16dp"
+                    android:src="@drawable/assignment_icon"
+                    android:contentDescription="Submission Icon"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Submissions"
+                        android:textSize="20sp"
+                        android:textColor="#4D4949"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Submit your task"
+                        android:textSize="15sp"
+                        android:textColor="#000000"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- MIDS CARD -->
+            <LinearLayout
+                android:id="@+id/mids_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:padding="16dp"
+                android:background="@drawable/card_bg"
+                android:layout_marginBottom="16dp">
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="46dp"
+                    android:layout_marginEnd="16dp"
+                    android:src="@drawable/assignment_icon"
+                    android:contentDescription="Mids Icon"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mids Result"
+                        android:textSize="20sp"
+                        android:textColor="#4D4949"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Check your mids result"
+                        android:textSize="15sp"
+                        android:textColor="#000000"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- FINAL CARD -->
+            <LinearLayout
+                android:id="@+id/final_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:padding="16dp"
+                android:background="@drawable/card_bg">
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="46dp"
+                    android:layout_marginEnd="16dp"
+                    android:src="@drawable/assignment_icon"
+                    android:contentDescription="Final Result Icon"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Final Result"
+                        android:textSize="20sp"
+                        android:textColor="#4D4949"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Check your final result"
+                        android:textSize="15sp"
+                        android:textColor="#000000"/>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="16dp"
+    android:background="@drawable/card_bg"
+    android:layout_marginBottom="16dp">
+
+    <ImageView
+        android:id="@+id/subject_icon"
+        android:layout_width="45dp"
+        android:layout_height="46dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="Subject Icon"
+        android:src="@drawable/assignment_icon" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/subject_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Assignments"
+            android:textSize="20sp"
+            android:textColor="#4D4949"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/subject_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Assignment marks"
+            android:textSize="15sp"
+            android:textColor="#000000" />
+    </LinearLayout>
+</LinearLayout>

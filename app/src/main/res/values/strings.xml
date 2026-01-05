@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">attandence_managment</string>
+    <string name="attendance_logo_description">Attendance App Logo</string>
+    <string name="university_logo_description">University Logo</string>
+    <string name="login_to_your_account">LOGIN TO YOUR ACCOUNT</string>
+    <string name="your_institute_email_id">Your Institute Email ID</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="log_in">LOG IN</string>
+    <string name="attendity">Attendity</string>
+    <string name="profile_image_description">Profile image</string>
+    <string name="sakshi_choudhary">Sakshi Choudhary</string>
+    <string name="sakshichoudhary_email_com">sakshichoudhary@email.com</string>
+    <string name="hi_sakshi">Hi, Sakshi.</string>
+    <string name="welcome_to_your_class">Welcome to your Class</string>
+    <string name="today_s_classes">Today’s Classes</string>
+    <string name="view_all_classes">View all classes</string>
+    <string name="m">M</string>
+    <string name="mathematics_i">Mathematics I</string>
+    <string name="_09_30_am">09:30 am</string>
+    <string name="p">P</string>
+    <string name="physics">Physics</string>
+    <string name="_10_40_am">10:40 am</string>
+    <string name="b">B</string>
+    <string name="biology">Biology</string>
+    <string name="_11_45_am">11:45 am</string>
+    <string name="g">G</string>
+    <string name="geography">Geography</string>
+    <string name="_12_10_am">12:10 am</string>
+    <string name="m_initial">M</string>
+    <string name="mathematics_i_long">Mathematics I</string>
+    <string name="you_are_marked_present">You are marked present</string>
+    <string name="time_9_30_am">09:30 am</string>
+    <string name="attendity_title">Attendity</string>
+    <string name="profile_image_description_alt">Profile image</string>
+    <string name="sakshi_choudhary_name">Sakshi Choudhary</string>
+    <string name="sakshi_choudhary_email">sakshichoudhary@email.com</string>
+    <string name="today_s_classes_title">Today’s Classes</string>
+    <string name="p_initial">P</string>
+    <string name="physics_long">Physics</string>
+    <string name="you_are_marked_absent">You are marked absent</string>
+    <string name="time_10_40_am">10:40 am</string>
+    <string name="b_initial">B</string>
+    <string name="biology_long">Biology</string>
+    <string name="mark_present">Mark Present</string>
+    <string name="mark_absent">Mark Absent</string>
+    <string name="time_11_45_am">11:45 am</string>
+    <string name="g_initial">G</string>
+    <string name="geography_long">Geography</string>
+    <string name="this_class_has_been_cancelled">This class has been cancelled</string>
+    <string name="time_12_10_am">12:10 am</string>
+    <string name="home_icon">Home Icon</string>
+    <string name="attendance_logo">Attendance Logo</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="sakshi_choudhary_name_grade">Sakshi Choudhary</string>
+    <string name="sakshi_choudhary_email_grade">sakshichoudhary@email.com</string>
+    <string name="grade_book_title">Grade Book</string>
+    <string name="subject_icon_description">Subject Icon</string>
+    <string name="mathematics_label">Mathematics</string>
+    <string name="check_marks_label">Check Marks</string>
+    <string name="time_10_40_am_label">10:40 am</string>
+    <!-- res/values/strings.xml -->
+    <string name="present">Present</string>
+    <string name="markscheck">check your quiz marks </string>
+    <string name="assignment_marks_title">check your marks </string>
+    <string name="final_marks_title">check your finals marks </string>
+    <string name="mids_marks_title">check your Mids marks </string>
+    <string name="announcement_details">Announcement Details</string>
+    <string name="sample_title">Midterm Exam Schedule Released</string>
+    <string name="sample_meta">Posted on 25 Dec 2025 • By Sir Ahmed</string>
+    <string name="sample_description">The midterm exams for all sections will begin from January 10. Students must bring their ID card and be seated 15 minutes before the exam starts. The complete exam schedule has been posted in the portal. Best of luck!</string>
+    <string name="view_attachment">View Attachment</string>
+    <string name="announcement_image">announcement_image</string>
+
+    <string-array name="marks_type">
+        <item>Quiz</item>
+        <item>Assignment</item>
+        <item>Mid Term</item>
+        <item>Final Exam</item>
+
+    </string-array>
+
+
+</resources>

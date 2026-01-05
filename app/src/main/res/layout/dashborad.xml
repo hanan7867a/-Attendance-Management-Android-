@@ -1,0 +1,89 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <include
+            android:id="@+id/topHeader"
+            layout="@layout/header_activity" />
+
+
+        <!-- TITLES -->
+        <TextView
+            android:id="@+id/gretting_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hi_sakshi"
+            android:textColor="#000000"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_to_your_class"
+            android:textColor="#95B8E8"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="25dp"/>
+
+        <!-- TODAY’S CLASSES -->
+        <RelativeLayout
+            android:id="@+id/todayClassesRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/today_s_classes"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/ic_arrow_right"/>
+        </RelativeLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/todayClassesRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:nestedScrollingEnabled="false"
+            android:background="@drawable/card_bg"
+            android:padding="15dp" />
+
+        <!-- GRADES AND ATTENDANCE ROWS -->
+        <include android:id="@+id/gradeRow" layout="@layout/dash_grade_row" />
+        <include android:id="@+id/attandenceRow" layout="@layout/attandence_row" />
+        <include android:id="@+id/submittionRow" layout="@layout/activity_submittion" />
+
+
+        <!-- ANNOUNCEMENTS -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Latest Announcements"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="8dp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerAnnouncements"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:nestedScrollingEnabled="false"
+            android:overScrollMode="never"/>
+    </LinearLayout>
+</ScrollView>

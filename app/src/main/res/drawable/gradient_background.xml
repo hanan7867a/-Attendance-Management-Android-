@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Subtle vertical gradient from a soft primary color to a deeper shade -->
+    <!-- You can adjust colors to match your app's theme -->
+    <gradient
+        android:startColor="#8360c3"
+        android:endColor="#2ebf91"
+        android:angle="270" />
+    <!-- Optional: very subtle corner radius for modern feel -->
+    <corners android:radius="0dp" />  <!-- Keep 0dp if you want it to match the collapsing toolbar exactly -->
+
+</shape>

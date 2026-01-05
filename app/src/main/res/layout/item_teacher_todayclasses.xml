@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:paddingVertical="12dp"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:layout_marginBottom="12dp"
+    android:background="@drawable/bg_card_item"
+    android:elevation="2dp">
+
+    <!-- Circle with First Letter of Subject -->
+    <TextView
+        android:id="@+id/classIcon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:text="M"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/circle_blue"
+        android:layout_marginEnd="12dp"/>
+
+    <!-- Class Info -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <!-- Subject Name -->
+        <TextView
+            android:id="@+id/courseName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mathematics I"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+
+        <!-- Section & Venue -->
+        <TextView
+            android:id="@+id/sectionVenue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Section A • Room 101"
+            android:textSize="14sp"
+            android:textColor="#6A6A6A"
+            android:layout_marginTop="3dp"/>
+
+        <!-- Number of Students -->
+        <TextView
+            android:id="@+id/studentCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="25 Students"
+            android:textSize="14sp"
+            android:textColor="#6A6A6A"
+            android:layout_marginTop="2dp"/>
+    </LinearLayout>
+
+    <!-- Class Time & Action -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginStart="12dp">
+
+        <!-- Time -->
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="09:30 am"
+            android:textSize="15sp"
+            android:textColor="#6A6A6A"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Quick Action Button -->
+        <Button
+            android:id="@+id/btnTakeAttendance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Attendance"
+            android:textSize="12sp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:backgroundTint="#4CAF50"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+
+</LinearLayout>
